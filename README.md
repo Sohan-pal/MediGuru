@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# _MediGuru: AI-Powered Chatbot_ 🚀
 
-## Getting Started
+MediGuru is an _AI-driven chatbot_ designed for \_prescription analysis, leveraging Generative AI to provide accurate, context-aware responses.
 
-First, run the development server:
+## _Key Features_
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+✅ _Context-Aware Conversations_ – AI retains chat history for seamless interactions.  
+✅ _Real-time AI Processing_ – Powered by Langchain & Transformers.js.  
+✅ _Modern UI_ – Built with Next.js, Tailwind CSS, and Shadcn UI.  
+✅ _Secure Authentication_ – Integrated with Clerk.  
+✅ _Multi-Lingual Support & Medication Reminders_ – Users can interact in any language and receive reminders for medications.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## _Mission & Vision_
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔹 _Mission_ – Provide _AI-driven prescription insights_ for safer medication use.  
+🔹 _Vision_ – Bridge the gap between _patients & medical professionals_ through AI.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## _SWOT Analysis_
 
-## Learn More
+_Strengths_ – Advanced AI capabilities, scalable tech stack, user-friendly UI, and secure authentication.  
+_Weaknesses_ – API dependency, high resource consumption, and limited domain-specific knowledge.  
+_Opportunities_ – Healthcare & enterprise integration, monetization, and multimodal capabilities.  
+_Threats_ – Competition, data privacy concerns, and rapid AI evolution.
 
-To learn more about Next.js, take a look at the following resources:
+## _Tech Stack_
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- _Frontend_: Next.js, Tailwind CSS, Shadcn UI
+- _Backend_: Langchain, Transformers.js
+- _Vector Database_: Pinecone
+- _Authentication_: Clerk
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## _Setup & Installation_
 
-## Deploy on Vercel
+1. _Prerequisites_ – Node.js 18+, API Keys for Pinecone & Clerk.
+2. _Installation_:  
+   bash
+   git clone https://github.com/extremecoder-rgb/MediGuru.git
+   cd MediGuru
+   npm install # or yarn install
+3. _Run the App_:  
+   bash
+   npm run dev # or yarn dev
+   Access at http://localhost:3000
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## _Usage_
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔹 _Sign Up/Login_ via Clerk.  
+🔹 _Start a Conversation_ or revisit chat history.  
+🔹 _Upload Documents_ for improved AI responses.
+
+## _Contributing & License_
+
+MediGuru is _open-source (MIT License)_ – contributions are welcome!
+
+📬 _Contact_: [Email](mailto:sohanxpal18@gmail.com) | [LinkedIn](www.linkedin.com/in/sohan-pal-b79b33309)
+
+⭐ _Star the repo if you find it useful!_ 🚀
